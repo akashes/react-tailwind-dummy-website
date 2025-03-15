@@ -14,10 +14,10 @@ function App() {
 
   return (
     <>
+<Header/> 
     <main>
       {/* header and hero section */}
       <div className='w-[100%] h-[100vh]'>
-    <Header/>
 
     <div className='w-[100%] h-[88vh] flex'>
       <div className='w-[50%] h-[100%] bg-gray-300 flex flex-col justify-center px-[50px]'>
