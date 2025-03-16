@@ -22,27 +22,26 @@ function App() {
 <Services/>
 
 
-    
-
-
-
-      <div className='w-[100%] h-[45vh] bg-[#F5F5F5] px-[10px] flex'>
-        <div className='w-[50%] h-[100%] flex justify-center items-center'>
+  {/* cta section  */}
+      <div className='w-[100%] sm:h-[45vh] my-10 text-center sm:text-left  px-[10px] flex flex-col gap-5 sm:gap-0 sm:flex-row'>
+        <div className=' w-full sm:w-[50%] h-[100%] flex justify-center items-center'>
           <h1 className='text-[2rem] font-semibold'>MirroSoft Design <br /> SuperPassed Our <br /> Expectations</h1>
         </div>
-        <div className='w-[50%] h-[100%] bg-slate-300 flex flex-col justify-center'>
-          <p className='w-[70%] text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora blanditiis eius, deserunt sunt provident dolores mollitia vel nulla molestiae, alias natus nihil, hic nam in!</p>
-          <a href="" className='w-[160px] mt-2 text-center  block py-[7px] rounded-full border-[2px] border-[#c8c9cc]'>Get in Touch Now</a>
+        <div className='w-full sm:w-[50%] h-[100%]  flex flex-col justify-center items-center sm:items-start'>
+          <p className='w-[70%]  text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora blanditiis eius, deserunt sunt provident dolores mollitia vel nulla molestiae, alias natus nihil, hic nam in!</p>
+          <a href="" className='w-[160px] mt-2 text-center  block py-[7px] rounded-full border-[2px] border-[#c8c9cc] hover:bg-black hover:text-white transition-colors duration-300'>Get in Touch Now</a>
 
         </div>
 
 
       </div>
 
-      <div className='w-[100%] h-[90vh] flex px-[50px] ' >
+      
 
-      <div className='w-[40%] h-[100%]  flex flex-col justify-center'>
-        <h1 className='text-[2.2rem] font-semibold'>Passionate <br /> creators,Innovators, <br /> And Visionaries</h1>
+      <div className='w-[100%] h-[90vh] flex flex-col  sm:flex-row sm:px-[50px] ' >
+
+      <div className='w-full sm:w-[40%] h-[100%]  flex flex-col justify-center items-center text-center sm:items-start sm:text-left'>
+        <h1 className=' text-[2.2rem] sm:text-[1.8rem] font-semibold'>Passionate <br /> creators,Innovators,  And Visionaries</h1>
         <p className='text-[0.8rem] text-gray-600 mt-2 w-[70%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, aut placeat quibusdam id dolor nesciunt nostrum amet ex sed maxime, rem blanditiis et? Rem, hic?</p>
 
       </div>
@@ -88,42 +87,42 @@ function App() {
      </div>
       </div> */}
      
-     <div className='w-[60%] h-[100%]  grid  place-items-center md:grid-cols-2'>
+     <div className='w-full sm:w-[60%] h-[100%]  grid  place-items-center grid-cols-1 md:grid-cols-2'>
 
-<div className='w-[250px]  bg-white '>
+<div className='w-[250px]  bg-white flex flex-col items-center md:items-start '>
  <div className='w-[50px] h-[50px] bg-gray-200 rounded-md flex justify-center items-center'>
 <img className='w-[25px]' src={client} alt="" />
 
  </div>
  <h1 className='text-[1.1rem] font-semibold mt-1'>Client Centric Approach</h1>
- <p className='text-gray-500 text-[0.8rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsa ab, doloribus accusamus ducimus quos!</p>
+ <p className='text-gray-500 text-[0.8rem] text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsa ab, doloribus accusamus ducimus quos!</p>
 
 </div>
-<div className='w-[250px]  bg-white '>
+<div className='w-[250px]  bg-white flex flex-col items-center md:items-start'>
  <div className='w-[50px]  h-[50px] bg-gray-200 rounded-md flex justify-center items-center'>
 <img className='w-[25px]' src={strategy} alt="" />
 
  </div>
  <h1 className='text-[1.1rem] font-semibold mt-1'>Strategic Thinking</h1>
- <p className='text-gray-500 text-[0.8rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsa ab, doloribus accusamus ducimus quos!</p>
+ <p className='text-gray-500 text-[0.8rem] text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsa ab, doloribus accusamus ducimus quos!</p>
 
 </div>
-<div className='w-[250px]  bg-white '>
+<div className='w-[250px]  bg-white flex flex-col items-center md:items-start '>
  <div className='w-[50px] h-[50px] bg-gray-200 rounded-md flex justify-center items-center'>
 <img className='w-[25px]' src={creative} alt="" />
 
  </div>
  <h1 className='text-[1.1rem] font-semibold mt-1'>Creative Excellence</h1>
- <p className='text-gray-500 text-[0.8rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsa ab, doloribus accusamus ducimus quos!</p>
+ <p className='text-gray-500 text-[0.8rem] text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsa ab, doloribus accusamus ducimus quos!</p>
 
 </div>
-<div className='w-[250px]  bg-white '>
+<div className='w-[250px]  bg-white flex flex-col items-center md:items-start '>
  <div className='w-[50px] h-[50px] bg-gray-200 rounded-md flex justify-center items-center'>
 <img className='w-[25px]' src={calendar} alt="" />
 
  </div>
  <h1 className='text-[1.1rem] font-semibold mt-1'>Timely Delivery</h1>
- <p className='text-gray-500 text-[0.8rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsa ab, doloribus accusamus ducimus quos!</p>
+ <p className='text-gray-500 text-[0.8rem] text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsa ab, doloribus accusamus ducimus quos!</p>
 
 </div>
  </div>
