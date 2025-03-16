@@ -11,6 +11,7 @@ import calendar from './icons/calendar.png'
 import rightup from './icons/right-up.png'
 import desktopTwo from './images/desktopTwo.jpg'
 import Hero from './components/Hero'
+import Services from './components/Services'
 function App() {
 
   return (
@@ -18,24 +19,10 @@ function App() {
     <main>
 <Header/> 
 <Hero/>  
+<Services/>
 
 
-      {/* services section */}
-      <div className='w-[100%]  h-[12vh] bg-black text-white flex justify-evenly items-center'>
-        <div>
-          <h1 className='text-[1.8rem] font-medium'>Branding</h1>
-        </div>
-        <div>
-          <h1 className='text-[1.8rem] font-medium'>Website</h1>
-        </div>
-        <div>
-          <h1 className='text-[1.8rem] font-medium'>Digital Marketing</h1>
-        </div>
-        <div>
-          <h1 className='text-[1.8rem] font-medium'>App</h1>
-        </div>
-        <ul></ul>
-      </div>
+    
 
 
 
